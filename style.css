@@ -1,0 +1,92 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.menu {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menuLinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+}
+
+.menuLinks li, a {
+  color: aliceblue;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.parallax1 {
+  background: url('./img/joshua-parque.jpg') no-repeat center center ;
+}
+
+.parallax2 {
+  background: url('./img/joshua-tree-hd.jpg') no-repeat center center;
+}
+
+.parallax3 {
+  background: url('./img/Boulders_in_Joshua_Tree_National_Park.jfif') no-repeat center center;
+}
+
+.parallax4 {
+  background: url('./img/foto-1987-do-u2.jpg') no-repeat center center;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.titulo {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.titulo span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  /* opacity: 0.7; */
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.content {
+  background-color: rgba(0, 11, 120, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+
+p {
+  width: 80%;
+  font-size: 1.5em;
+  color: #050505;
+}
+
+.setaTopo {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  z-index: 2000;
+}

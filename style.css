@@ -88,7 +88,7 @@ body, html {
 
 p {
   width: 80%;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #050505;
 }
 
@@ -100,17 +100,14 @@ p {
   z-index: 2000;
 }
 
-@media (max-width: 425px) {
-  p {
-    font-size: 0.75rem;
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
   }
+}
 
-  .titulo span {
-    font-size: 1.25rem;
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
   }
-
-  .menuLinks a {
-    font-size: .9rem;
-  }
-
 }

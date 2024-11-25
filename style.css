@@ -29,6 +29,15 @@ body, html {
   text-decoration: none;
 }
 
+.menuLinks li::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 2px 5px;
+  background-color: #999DCA;
+}
+
 
 .parallax1 {
   background: url('./img/joshua-parque.jpg') no-repeat center center ;

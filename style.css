@@ -99,3 +99,18 @@ p {
   right: 10px;
   z-index: 2000;
 }
+
+@media (max-width: 425px) {
+  p {
+    font-size: 0.75rem;
+  }
+
+  .titulo span {
+    font-size: 1.25rem;
+  }
+
+  .menuLinks a {
+    font-size: .9rem;
+  }
+
+}

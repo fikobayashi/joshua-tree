@@ -16,7 +16,7 @@ sr.reveal('.livre', {
 
 sr.reveal('.esquerda', {
   origin: 'left',
-})
+});
 
 const setaTopo = document.getElementsByClassName('setaTopo');
 
@@ -26,4 +26,4 @@ window.onscroll = () => {
   } else {
     setaTopo[0].style.display = "none";
   }
-}
+};
